@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- added references to style sheet and fonts used from google -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App - JavaScript</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<!-- outer container of whole app including the chart and summary info of the income and outgoings -->
+<body>
+    <div class="budget-container">
+        <div><sm>A ReeDeveloper creation &copy;</sm></div>
+        <div class="app-title">
+            <h1><b>Budget Buddy</b> <span class="material-symbols-outlined">
+                    savings
+                </span></h1>
+        </div>
+        <div class="budget-header">
+            <div class="balance">
+                <div class="title">
+                    Balance <small>per month</small>
+                </div>
+                <div class="value">
+                    <small>£</small>0
+                </div>
+            </div>
+            <div class="account">
+                <div class="income">
+                    <div class="title">
+                        Income</br> <small>per month</small>
+                    </div>
+                    <div class="income-total">
+                        <small>£</small>0
+                    </div>
+                </div>
+                <div class="chart"></div>
+                <div class="outcome">
+                    <div class="title">
+                        outgoings </br> <small>per month</small>
+                    </div>
+                    <div class="outcome-total">
+                        <small>£</small>0
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container of the dashboard showing entries of income and outgoings -->
+        <!-- tabs 1-3 for income, outcome and summary with buttons  -->
+        <div class="budget-dashboard">
+            <div class="dash-title">Budgeting Dashboard</div>
+            <div class="toggle">
+                <div class="tab1">Expenses</div>
+                <div class="tab2">Income</div>
+                <div class="tab3 active"> Summary</div>
+                <div class="tab4"> Extra info</div>
+            </div>
+            <div class="hide" id="income">
+                <ul class="list"></ul>
+                <div class="input">
+                    <input type="text" id="income-title-input" name="title" placeholder="Title">
+                    <input type="number" id="income-amount-input" name="amount" placeholder="£0">
+                    <div class="add-income"><img src="Assets/plus.png" alt=""></div>
+                </div>
+            </div>
+            <div class="hide" id="expense">
+                <ul class="list"></ul>
+                <div class="input">
+                    <input type="text" id="expense-title-input" name="title" placeholder="Title">
+                    <input type="number" id="expense-amount-input" name="amount" placeholder="£0">
+                    <div class="add-expense"><img src="Assets/plus.png" alt=""></div>
+                </div>
+            </div>
+            <div id="all">
+                <ul class="list"></ul>
+            </div>
+<!-- extra info tab displaying extra resouces on budgeting -->
+            <div class="hide" id="extraInfo">
+                <h4>Useful Resources</h4>
+                <ul class="list">
+                    <li><a href="https://www.moneysavingexpert.com/team-blog/2019/12/the-1p-365-day-savings-challenge/">
+                            MoneySavingExpert - great tips on how to save money </a></li>
+
+                    <br>
+                    <li><a href="https://www.citizensadvice.org.uk/debt-and-money/get-help-with-the-cost-of-living/">
+                            national charity offering confidential advice</a></li>
+                    <br>
+                    <li><a href="https://helpforhouseholds.campaign.gov.uk/"> site explaining what government help is
+                            available</a></li>
+                    <br>
+                    <li><a href="https://www.which.co.uk/topic/cost-of-living"> cost of living advice for consumers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!-- script tabs to reference the javascript files -->
+        <script src="chart.js"></script>
+        <script src="COLBudgetApp.js"></script>
+</body>
+
+</html>
