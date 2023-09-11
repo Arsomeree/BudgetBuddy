@@ -29,7 +29,10 @@ For a Version 2 of this application, I would love to add extra functionality to 
 For example with  pre-existing fields for different types of people like students, parents, homeowners, renters etc.
 
 
+# Budget Buddy
+https://arsomeree.github.io/BudgetBuddy/
 
-![image](https://github.com/Arsomeree/BudgetBuddy/assets/33703509/038c13f8-9e1b-4134-8ab5-49718fb59855)
+![image](https://github.com/Arsomeree/BudgetBuddy/assets/33703509/af86e64b-c80f-4981-a959-9fb292766fcf)
+
 
 
