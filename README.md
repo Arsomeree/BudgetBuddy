@@ -17,7 +17,8 @@ Struggled to get the entry list to display realised I needed to convert to a JSO
 ![image](https://github.com/Arsomeree/BudgetBuddy/assets/33703509/ffc7c306-59c0-4a45-87bd-e1cecb4e666e)
 
 Used JSON.stringify() - JavaScript | MDN (mozilla.org) to find resolution.
-![image](https://github.com/Arsomeree/BudgetBuddy/assets/33703509/92e2a795-71fd-4ed1-b805-4206e13872f2)
+![image](https://github.com/Arsomeree/BudgetBuddy/assets/33703509/2384b55b-068b-4821-a1b8-d1b2b254ecef)
+
 
 
 
